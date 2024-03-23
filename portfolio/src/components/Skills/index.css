@@ -1,0 +1,39 @@
+.skills{
+    height: 90vh;
+    padding: 18px;
+    padding-bottom: 10px;
+}
+.h11{
+    font-size: 20px;
+    font-family: 500;
+}
+.ull{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+@media screen and (max-width:768px){
+    .ull{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+    }
+    .skills{
+        overflow-y: auto;
+    }
+    .h11{
+        font-size: 14px;
+        font-family: 300;
+    }
+    .skills{
+        
+        padding: 10px;
+        padding-bottom: 7px;
+    }
+    .pp{
+        font-size: 26px;}
+        
+}

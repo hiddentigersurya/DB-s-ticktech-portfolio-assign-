@@ -1,0 +1,21 @@
+.contact {
+    height: 90vh;
+    padding: 10px;
+}
+
+.ph {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contact {
+        overflow-y: auto;
+    }
+    .ph {
+        font-size: 20px; 
+    }
+.pp{
+font-size: 26px;}
+}

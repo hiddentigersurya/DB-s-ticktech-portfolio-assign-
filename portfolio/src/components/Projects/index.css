@@ -1,0 +1,22 @@
+.projects{
+    height: 90vh;
+    padding: 18px;
+}
+.ph{
+    font-size: 28px;
+    font-weight: 600;
+}
+@media screen and (max-width:768px) {
+    .ph{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .projects{
+        height: 92vh;
+        padding: 8px;
+        overflow-y: auto;
+    }
+    .pp{
+        font-size: 26px;}
+        
+}
